@@ -1,19 +1,27 @@
 import React from 'react';
 import { render } from '@testing-library/react-native';
-import HomeScreen, { CustomText } from '../app/index';
+import Home from '../app/index';
 
-describe('HomeScreen Component', () => {
-    test('renders welcome text', () => {
-        const { getByText } = render(<HomeScreen />);
-        const welcomeText = getByText('Welcome!');
-        expect(welcomeText).toBeTruthy();
+describe('Home Component', () => {
+    test('renders without crashing', () => {
+        render(<Home />);
     });
-});
 
-describe('CustomText Component', () => {
-    test('renders children text', () => {
-        const { getByText } = render(<CustomText>Welcome!</CustomText>);
-        const childrenText = getByText('Welcome!');
-        expect(childrenText).toBeTruthy();
+    test('renders Welcome component', () => {
+        const { getByTestId } = render(<Home />);
+        const welcomeComponent = getByTestId('WelcomeComponent');
+        expect(welcomeComponent).toBeTruthy();
+    });
+
+    test('renders Popularjobs component', () => {
+        const { getByTestId } = render(<Home />);
+        const popularJobsComponent = getByTestId('PopularjobsComponent');
+        expect(popularJobsComponent).toBeTruthy();
+    });
+
+    test('renders Nearbyjobs component', () => {
+        const { getByTestId } = render(<Home />);
+        const nearbyJobsComponent = getByTestId('NearbyjobsComponent');
+        expect(nearbyJobsComponent).toBeTruthy();
     });
 });
