@@ -1,51 +1,21 @@
-import { useState } from 'react';
-import { View, ScrollView, SafeAreaView } from 'react-native';
-import { Stack, useRouter } from 'expo-router';
+import { PropsWithChildren } from 'react';
+import { StyleSheet, Text, View } from 'react-native';
 
-import { COLORS, icons, images, SIZES } from '../constants';
-import { Nearbyjobs, Popularjobs, ScreenHeaderBtn, Welcome } from '../components'
+export const CustomText = ({ children } = PropsWithChildren) => <Text>{children}</Text>;
 
-const Home = () => {
-    const router = useRouter();
-
+export default function HomeScreen() {
     return (
-        <SafeAreaView style={{
-            flex: 1, backgroundColor: COLORS.
-                lightWhite
-        }}>
-            <Stack.Screen
-                options={{
-                    headerStyle: { backgroundColor: COLORS.lightWhite },
-                    headerShadowVisible: false,
-                    headerLeft: () => (
-                        <ScreenHeaderBtn iconUrl={icons.menu} dimension="60%" />
-                    ),
-                    headerRight: () => (
-                        <ScreenHeaderBtn iconUrl={images.profile} dimension="100%" />
-                    ),
-                    headerTitle: ""
-                }}
-            />
-
-            <ScrollView showsVerticalScrollIndicator={false}>
-                <View
-                    style={{
-                        flex: 1,
-                        padding: SIZES.medium
-                    }}
-                >
-                    <Welcome
-
-                    />
-
-                    <Popularjobs />
-                    <Nearbyjobs />
-
-                </View>
-            </ScrollView>
-
-        </SafeAreaView>
-    )
+        <View style={styles.container}>
+            <CustomText>Welcome!</CustomText>
+        </View>
+    );
 }
 
-export default Home;
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+});
