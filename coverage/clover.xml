@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1727446526745" clover="3.2.0">
-  <project timestamp="1727446526746" name="All files">
-    <metrics statements="77" coveredstatements="0" conditionals="27" coveredconditionals="0" methods="34" coveredmethods="0" elements="138" coveredelements="0" complexity="0" loc="77" ncloc="77" packages="15" files="31" classes="31"/>
-    <package name="app">
-      <metrics statements="18" coveredstatements="0" conditionals="7" coveredconditionals="0" methods="7" coveredmethods="0"/>
-      <file name="Link.js" path="D:\VTC\Job\react_native_test\app\Link.js">
+<coverage generated="1730373206260" clover="3.2.0">
+  <project timestamp="1730373206260" name="All files">
+    <metrics statements="114" coveredstatements="30" conditionals="36" coveredconditionals="0" methods="44" coveredmethods="0" elements="194" coveredelements="30" complexity="0" loc="114" ncloc="114" packages="18" files="35" classes="35"/>
+    <package name="jobs-finder">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name=".eslintrc.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\.eslintrc.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+      </file>
+      <file name="sample.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\sample.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="jobs-finder.app">
+      <metrics statements="20" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <file name="Link.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\app\Link.js">
         <metrics statements="7" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="3" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
@@ -14,7 +25,7 @@
         <line num="16" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
       </file>
-      <file name="_layout.js" path="D:\VTC\Job\react_native_test\app\_layout.js">
+      <file name="_layout.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\app\_layout.js">
         <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="6" count="0" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
@@ -25,95 +36,106 @@
         <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="23" count="0" type="stmt"/>
       </file>
-      <file name="index.js" path="D:\VTC\Job\react_native_test\app\index.js">
-        <metrics statements="3" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="4" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
+      <file name="index.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\app\index.js">
+        <metrics statements="5" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="components">
+    <package name="jobs-finder.components">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="D:\VTC\Job\react_native_test\components\index.js">
+      <file name="index.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="components.common.cards.nearby">
-      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="NearbyJobCard.jsx" path="D:\VTC\Job\react_native_test\components\common\cards\nearby\NearbyJobCard.jsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
+    <package name="jobs-finder.components.common.cards.nearby">
+      <metrics statements="3" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="NearbyJobCard.jsx" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\common\cards\nearby\NearbyJobCard.jsx">
+        <metrics statements="2" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
       </file>
-      <file name="nearbyjobcard.style.js" path="D:\VTC\Job\react_native_test\components\common\cards\nearby\nearbyjobcard.style.js">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
+      <file name="nearbyjobcard.style.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\common\cards\nearby\nearbyjobcard.style.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="components.common.cards.popular">
-      <metrics statements="7" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="5" coveredmethods="0"/>
-      <file name="PopularJobCard.jsx" path="D:\VTC\Job\react_native_test\components\common\cards\popular\PopularJobCard.jsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
+    <package name="jobs-finder.components.common.cards.popular">
+      <metrics statements="9" coveredstatements="2" conditionals="10" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <file name="PopularJobCard.jsx" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\common\cards\popular\PopularJobCard.jsx">
+        <metrics statements="4" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
       </file>
-      <file name="popularjobcard.style.js" path="D:\VTC\Job\react_native_test\components\common\cards\popular\popularjobcard.style.js">
-        <metrics statements="5" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
+      <file name="popularjobcard.style.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\common\cards\popular\popularjobcard.style.js">
+        <metrics statements="5" coveredstatements="1" conditionals="8" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
         <line num="36" count="0" type="stmt"/>
         <line num="47" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="components.common.header">
-      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-      <file name="ScreenHeaderBtn.jsx" path="D:\VTC\Job\react_native_test\components\common\header\ScreenHeaderBtn.jsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="0" type="stmt"/>
+    <package name="jobs-finder.components.common.header">
+      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="ScreenHeaderBtn.jsx" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\common\header\ScreenHeaderBtn.jsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
       </file>
-      <file name="screenheader.style.js" path="D:\VTC\Job\react_native_test\components\common\header\screenheader.style.js">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
+      <file name="screenheader.style.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\common\header\screenheader.style.js">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="components.home.nearby">
-      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="Nearbyjobs.jsx" path="D:\VTC\Job\react_native_test\components\home\nearby\Nearbyjobs.jsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-      </file>
-      <file name="nearbyjobs.style.js" path="D:\VTC\Job\react_native_test\components\home\nearby\nearbyjobs.style.js">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="components.home.popular">
-      <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
-      <file name="Popularjobs.jsx" path="D:\VTC\Job\react_native_test\components\home\popular\Popularjobs.jsx">
-        <metrics statements="7" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
+    <package name="jobs-finder.components.home.nearby">
+      <metrics statements="7" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="Nearbyjobs.jsx" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\home\nearby\Nearbyjobs.jsx">
+        <metrics statements="6" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="10" count="1" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
         <line num="36" count="0" type="stmt"/>
       </file>
-      <file name="popularjobs.style.js" path="D:\VTC\Job\react_native_test\components\home\popular\popularjobs.style.js">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
+      <file name="nearbyjobs.style.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\home\nearby\nearbyjobs.style.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="components.home.welcome">
-      <metrics statements="12" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="8" coveredmethods="0"/>
-      <file name="Welcome.jsx" path="D:\VTC\Job\react_native_test\components\home\welcome\Welcome.jsx">
-        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
+    <package name="jobs-finder.components.home.popular">
+      <metrics statements="11" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="Popularjobs.jsx" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\home\popular\Popularjobs.jsx">
+        <metrics statements="10" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+      </file>
+      <file name="popularjobs.style.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\home\popular\popularjobs.style.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="jobs-finder.components.home.welcome">
+      <metrics statements="12" coveredstatements="3" conditionals="4" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <file name="Welcome.jsx" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\home\welcome\Welcome.jsx">
+        <metrics statements="9" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
@@ -122,98 +144,134 @@
         <line num="55" count="0" type="stmt"/>
         <line num="61" count="0" type="stmt"/>
       </file>
-      <file name="welcome.style.js" path="D:\VTC\Job\react_native_test\components\home\welcome\welcome.style.js">
-        <metrics statements="3" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
+      <file name="welcome.style.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\home\welcome\welcome.style.js">
+        <metrics statements="3" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
         <line num="59" count="0" type="stmt"/>
         <line num="66" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="components.jobdetails.about">
-      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="About.jsx" path="D:\VTC\Job\react_native_test\components\jobdetails\about\About.jsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="0" type="stmt"/>
+    <package name="jobs-finder.components.jobdetails.about">
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="About.jsx" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\jobdetails\about\About.jsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
       </file>
-      <file name="about.style.js" path="D:\VTC\Job\react_native_test\components\jobdetails\about\about.style.js">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
+      <file name="about.style.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\jobdetails\about\about.style.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="components.jobdetails.company">
-      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="Company.jsx" path="D:\VTC\Job\react_native_test\components\jobdetails\company\Company.jsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="0" type="stmt"/>
+    <package name="jobs-finder.components.jobdetails.company">
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Company.jsx" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\jobdetails\company\Company.jsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
       </file>
-      <file name="company.style.js" path="D:\VTC\Job\react_native_test\components\jobdetails\company\company.style.js">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
+      <file name="company.style.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\jobdetails\company\company.style.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="components.jobdetails.footer">
-      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="Footer.jsx" path="D:\VTC\Job\react_native_test\components\jobdetails\footer\Footer.jsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="0" type="stmt"/>
+    <package name="jobs-finder.components.jobdetails.footer">
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Footer.jsx" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\jobdetails\footer\Footer.jsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
       </file>
-      <file name="footer.style.js" path="D:\VTC\Job\react_native_test\components\jobdetails\footer\footer.style.js">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
+      <file name="footer.style.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\jobdetails\footer\footer.style.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="components.jobdetails.specifics">
-      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="Specifics.jsx" path="D:\VTC\Job\react_native_test\components\jobdetails\specifics\Specifics.jsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="0" type="stmt"/>
+    <package name="jobs-finder.components.jobdetails.specifics">
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Specifics.jsx" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\jobdetails\specifics\Specifics.jsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
       </file>
-      <file name="specifics.style.js" path="D:\VTC\Job\react_native_test\components\jobdetails\specifics\specifics.style.js">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
+      <file name="specifics.style.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\jobdetails\specifics\specifics.style.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="components.jobdetails.tabs">
-      <metrics statements="5" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
-      <file name="Tabs.jsx" path="D:\VTC\Job\react_native_test\components\jobdetails\tabs\Tabs.jsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="0" type="stmt"/>
+    <package name="jobs-finder.components.jobdetails.tabs">
+      <metrics statements="5" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="Tabs.jsx" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\jobdetails\tabs\Tabs.jsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
       </file>
-      <file name="tabs.style.js" path="D:\VTC\Job\react_native_test\components\jobdetails\tabs\tabs.style.js">
-        <metrics statements="3" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
+      <file name="tabs.style.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\components\jobdetails\tabs\tabs.style.js">
+        <metrics statements="3" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="constants">
-      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="icons.js" path="D:\VTC\Job\react_native_test\constants\icons.js">
+    <package name="jobs-finder.constants">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="icons.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\constants\icons.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
-      <file name="images.js" path="D:\VTC\Job\react_native_test\constants\images.js">
+      <file name="images.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\constants\images.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
-      <file name="index.js" path="D:\VTC\Job\react_native_test\constants\index.js">
+      <file name="index.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\constants\index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
-      <file name="theme.js" path="D:\VTC\Job\react_native_test\constants\theme.js">
-        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
+      <file name="theme.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\constants\theme.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="styles">
+    <package name="jobs-finder.hook">
+      <metrics statements="20" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="useFetch.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\hook\useFetch.js">
+        <metrics statements="20" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="jobs-finder.styles">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="search.js" path="D:\VTC\Job\react_native_test\styles\search.js">
+      <file name="search.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\styles\search.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="jobs-finder.utils">
+      <metrics statements="4" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="index.js" path="C:\Users\bbb12\OneDrive\桌面\React-native\jobs-finder\utils\index.js">
+        <metrics statements="4" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="4" count="0" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
       </file>
     </package>
