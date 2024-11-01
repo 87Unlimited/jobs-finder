@@ -25,7 +25,7 @@ const Popularjobs = () => {
   }
 
   return (
-    <View style={styles.container}>
+    <View style={styles.container} testID="popularJobs-message">
       <View style={styles.header}>
         <Text style={styles.headerTitle}>Popular jobs</Text>
         <TouchableOpacity>

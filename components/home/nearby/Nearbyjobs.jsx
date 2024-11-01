@@ -15,7 +15,7 @@ const Nearbyjobs = () => {
   });
 
   return (
-    <View style={styles.container}>
+    <View style={styles.container} testID="nearbyJobs-message">
       <View style={styles.header}>
         <Text style={styles.headerTitle}>Nearby jobs</Text>
         <TouchableOpacity>
