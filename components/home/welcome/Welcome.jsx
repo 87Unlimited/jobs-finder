@@ -19,7 +19,7 @@ const Welcome = () => {
   const [activeJobType, setActiveJobType] = useState("Full-time");
 
   return (
-    <View>
+    <View testID="welcome-message">
       <View style={styles.container}>
         <Text style={styles.userName}>Hello Chun</Text>
         <Text style={styles.welcomeMessage}>Find your perfect job</Text>
