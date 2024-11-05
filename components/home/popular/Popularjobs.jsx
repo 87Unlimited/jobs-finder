@@ -16,8 +16,6 @@ const Popularjobs = () => {
       num_pages: "1",
     })
 
-  console.log("data: " + data);
-
   const [selectedJob, setSelectedJob] = useState()
 
   const handleCardPress = (item) => {
@@ -29,7 +27,7 @@ const Popularjobs = () => {
       <View style={styles.header}>
         <Text style={styles.headerTitle}>Popular jobs</Text>
         <TouchableOpacity>
-          <Text>Show all</Text>
+          <Text style={styles.headerBtn}>Show all</Text>
         </TouchableOpacity>
       </View>
 
