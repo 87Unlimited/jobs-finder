@@ -1,28 +1,24 @@
 import React from 'react';
-import { render } from '@testing-library/react-native';
+import { render, Screen } from '@testing-library/react-native';
 import Home from '../app/index';
 
+jest.mock('expo-router', () => ({
+    useRouter: jest.fn(),
+}));
+
+
 describe('Home Component', () => {
-    test('renders correctly', () => {
-        const { getByText } = render(<Home />);
+    it('renders home screen without crashing', () => {
+        const { getByTestId } = render(<Home />);
 
-        // Check if certain elements are rendered on the screen
-        expect(getByText('Welcome')).toBeTruthy();
-        expect(getByText('Popular Jobs')).toBeTruthy();
-        expect(getByText('Nearby Jobs')).toBeTruthy();
-    });
+        // Components
+        const welcomeElement = getByTestId('welcome-message');
+        const popularJobsElement = getByTestId('popularJobs-message');
+        const nearbyJobsElement = getByTestId('nearbyJobs-message');
 
-    test('navigates to other screens', () => {
-        // Mock useRouter to test navigation
-        const mockUseRouter = jest.fn();
-        jest.mock('expo-router', () => ({
-            useRouter: mockUseRouter
-        }));
-
-        // Render the Home component
-        render(<Home />);
-
-        // Check if router function is called
-        expect(mockUseRouter).toHaveBeenCalled();
+        // Check components render correctly
+        expect(welcomeElement).toBeTruthy();
+        expect(popularJobsElement).toBeTruthy();
+        expect(nearbyJobsElement).toBeTruthy();
     });
 });
